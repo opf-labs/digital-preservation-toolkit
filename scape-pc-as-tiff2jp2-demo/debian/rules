@@ -14,8 +14,8 @@
 
 override_dh_clean:
 	dh_clean
-	rm -f debian/scape-as-tiff2jp2-demo.1
+	rm -f debian/scape-pc-as-tiff2jp2-demo.1
 override_dh_auto_build:
 	dh_auto_build
-	pod2man --section=1 --release=$(VERSION) --center "" debian/scape-as-tiff2jp2-demo.pod > debian/scape-as-tiff2jp2-demo.1
+	pod2man --section=1 --release=$(VERSION) --center "" debian/scape-pc-as-tiff2jp2-demo.pod > debian/scape-pc-as-tiff2jp2-demo.1
 

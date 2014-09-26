@@ -7,7 +7,7 @@ Standards-Version: 3.9.2
 
 Package: digital-preservation-tools
 Architecture: all
-Depends: ${misc:Depends},digital-preservation-tools-characterization,digital-preservation-tools-migration,digital-preservation-tools-quality-assurance
+Depends: ${misc:Depends},digital-preservation-tools-characterisation,digital-preservation-tools-migration,digital-preservation-tools-quality-assurance
 Description: Metapackage for digital preservation tools 
  This package was developed in the context of SCAPE project.
  The SCAPE project is co-funded by the European Union under 

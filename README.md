@@ -80,7 +80,7 @@ $> digital-preservation-migration-image-imagemagick-image2txt
     * **digital-preservation-tools-migration** migration metapackage
     * **digital-preservation-tools-quality-assurance** quality assurance metapackage
   * **others** source files for other packages (binary packages)
-* **LICENSE**
+* **LICENSE.txt**
 * _**README.md**_ 
 
 #### How to edit and compile a metapackage (e.g. digital-preservation-tools)
@@ -90,7 +90,7 @@ In this example, one is editing the main metapackage and adding a new dummy pack
 $> cd $DPT_GITHUB_FOLDER/
 $> cd sources/metapackages/digital-preservation-tools/digital-preservation-tools_1.0.0/
 ```
-Edit file **debian/control** and replace the file
+Edit file **debian/control** and replace the line 
 ```
 Depends: ${misc:Depends},digital-preservation-tools-characterisation,digital-preservation-tools-migration,digital-preservation-tools-quality-assurance
 ```
